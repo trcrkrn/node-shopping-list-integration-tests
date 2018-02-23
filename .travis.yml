@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BSt6zJ+25hiNAVHziHSonv/QumckndSaNijx4h8yJO/+xV93aNZ0KuOmoJBeHYlWBGGkqel/iLc5z/S8VE1vn6cOjhjosJgbbWxgqEyefs7EEcXHR2ijztpYmaeYCfqkTW+D7PFXx7RTqgJFLrc5gCJJKQYEiri/5fHN2ae93buxn+LJtfnrolQ8xpYTXM1oV1rV1Nrp02JlbFld5OfgFduVucHN5iZAdidc+4GPfJP2XNyX9R5zqlihZKwAJ7SBvr+Jfx39HC/qi6GETvwqQYXeTi2rklvwyC/N/3RwmGgNffgtzM4U4+HKBr2KXRG5ED9m2xQI6q8vKtupf/6U/bw/dPckT/krdwvdU2HxIR3NTkmZOz1QRn0i38fbhtsDhI7ULxiPV9sbwuGU3fOMn6ta2Eg6h1CoW/MlYza8WAydWslWaSZSOWdyJB1imN5m7APkNLzV5QRzIoku6Bro1Lka5+KtRzG5O9RGJ6av2HH2iqktWPF/VMJeunOlcaB2iP0N79GkCm/SUiG1zsnerx/R6dY4nWMYHiBrS44VRJcFZnvk7UDedaIaVwrH/nkKfOZybLDA47SchwOAoaR0Pcp7TgRLtXpt4WoPkzbjUiS53bWi0mty44PYwojlw5+CYCF1bEwsoYpmQfvenzsPcR5EODT4Sx3rfbiB8V7z7iE=
+  app: young-hamlet-98406
+  on:
+    repo: trcrkrn/node-shopping-list-integration-tests
+  
